@@ -1,0 +1,24 @@
+kts.pair                Calculation of the k top scoring pairs.
+ktspair-package         Computation of the k-TSP
+ktspcalc                Compute the k top scoring pairs based on a gene
+                        expression matrix and a group indicator vector.
+ktspcalc2		The k-TSP with chosen pairs of genes
+ktspdata                Simulated dataset of gene expressions in a
+                        matrix form.
+ktspplot                Graphical representation of ktsp objects
+make.consecutive.int    Transform the group vector into a binary vector
+plot.ktsp               Graphical representation of ktsp objects
+predict.ktsp            Prediction using a ktsp object
+print.ktsp              Print the results of the k-TSP
+rank_na                 Rank the gene expression and Replace NA
+ordertsp		Ordering of the pairs of genes
+AUC.calc		Compute the AUC for a given curve (the area under the curve)
+summary.ktsp            Summary of ktsp object
+cv			Crossvalidation for the parameter k
+cv2			Crossvalidation with chosen pairs of genes
+bootstrap.ktsp		Bootstrap procedure for the k-TSP
+bootstrap.graphic.ktsp	Graphical display of the bootstrap procedure
+ROC.offset		This function creates a ROC object used by the function ROC.graphic() to plot a ROC curve of the method based on adding an 				offset on each pair of gene.
+ROC.voting		This function creates a ROC object used by the function ROC.graphic.ktsp() to plot a ROC curve of the method based on cutoff 				on the majority voting system.
+ROC.graphic.ktsp	This functions displays the results of the ROC curve obtained through the function ROC()
+
